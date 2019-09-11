@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style6.css">
+ 
+</head>
+<div class="jumbotron text-center">
+  <h1>Update Page</h1>
+</div>
+<form name="form" action="UpdateServlet" method="post">
+    <div class="textbox">
+        <i class="fas fa-user-circle"></i>
+      <input id="eid" type="text" class="form-control" name="eid" placeholder="enter ur id">
+    </div>
+	<br/>
+	 <div class="input-group">
+   <span class="input-group-addon"><i class="	glyphicon glyphicon-edit"></i></span>
+    <input type="text" class="form-control" name="Design" id="Design" placeholder="Design">
+  </div>
+  <br/>
+   <div class="input-group">
+	 <span class="input-group-addon"><i class="	glyphicon glyphicon-edit"></i></span>
+      <textarea class="form-control" rows="8" id="question" name="question" placeholder="Enter ur question"></textarea>
+	  </div>
+	  <br/>
+	  
+  <button type="submit" class="btn btn-primary center-block">Update</button>
+</form>
+</body>
+</html>

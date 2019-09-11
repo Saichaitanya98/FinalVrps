@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+  <title>Post a question</title>
+  <link rel="stylesheet" href="css/style2.css">
+  <style>
+textarea{
+background-color:transparent;
+border:1px solid green;
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  border-bottom: 1px solid #4caf50;
+
+  border-width: 0px 0px 1px 0px;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  float: left;
+  margin: 0 18px;
+  }
+  i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<form name="form" action="QuestionServlet" method="post">
+<div class="login-box">
+<div class="text-center">
+  <h1>Raise a Question</h1>
+</div>
+    <div class="textbox">
+      <i class="fas fa-user"></i>
+      <input id="empid" type="text" class="form-control" name="empid" placeholder="Enter ur id">
+    </div>
+	<br/>
+  <div class="textbox">
+      <i class="fas fa-edit"></i>
+      <input id="Design" type="text" class="form-control" name="Design" placeholder="Designation">
+    </div>
+	<br>
+    <div class="textarea">
+	 <i class="fa fa-question-circle"></i>
+      <textarea class="" rows="4" id="question" name="question" placeholder="  Enter ur question"></textarea>
+	  </div>
+	  <br/>
+	    <br/>
+  <div class="checkbox center-block">
+    <label><input type="checkbox"> Remember me</label>
+      <br/>
+  <button type="submit" class="btn btn-primary center-block">Submit</button>
+  </div>
+  </div>
+    </form>
+</body>
+</html>

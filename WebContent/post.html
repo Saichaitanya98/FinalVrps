@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="css/style3.css">
+  <style>
+textarea{
+background-color:transparent;
+border:1px solid black;
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+
+  border-width: 0px 0px 1px 0px;
+  outline: none;
+  background: none;
+  color: black;
+  font-size: 18px;
+  width: 100%;
+  float: left;
+  margin: 0 18px;
+  }
+  i{
+  width: 26px;
+  float: left;
+  text-align: left;
+}
+</style>
+  
+</head>
+<body>
+
+<form name="form1" action="PostServlet" method="post">
+    <div class="login-box">
+<div class="text-center">
+  <h1>Post an answer</h1>
+</div>
+	 <div class="textarea">
+	 <i class="fa fa-question-circle"></i>
+      <textarea class="form-control" rows="4" id="questionpid" name="questionpid" placeholder="Enter Question"></textarea>
+	  </div>
+	
+	
+	 <div class="textarea">
+	 <i class="fas fa-edit"></i>
+      <textarea class="form-control" rows="4" id="qpid" name="qpid" placeholder="post an answer"></textarea>
+	  </div>
+	  <br></br>
+	   <div>
+  <button type="submit" class="btn btn-primary center-block">post</button>
+  </div>
+  </div>
+  </form>
+  </body>
+</body>
+</html>

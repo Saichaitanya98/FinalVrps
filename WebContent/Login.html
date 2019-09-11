@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+  <title>Login page</title>
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="login-box">
+  <h1>Login Page</h1>
+<form name="form" action="LoginServlet" method="post">
+    <div class="textbox">
+        <i class="fas fa-user-circle"></i>
+      <input id="lid" type="text" class="form-control" name="lid" placeholder="enter ur id">
+    </div>
+	<br/>
+  <div class="textbox">
+      <i class="fa fa-key"></i>
+      <input id="pass" type="password" class="form-control" name="pass" placeholder="Password">
+    </div>
+	<br>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn" value="submit">Submit</button>
+</form>
+</div>
+</body>
+</html>
