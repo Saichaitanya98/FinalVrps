@@ -1,29 +1,53 @@
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="css/style6.css">
- 
+  <link rel="stylesheet" href="css/style.css">
+    <style>
+textarea{
+background-color:transparent;
+border:1px solid black;
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+
+  border-width: 0px 0px 1px 0px;
+  outline: none;
+  background: none;
+  color: black;
+  font-size: 18px;
+  width: 100%;
+  float: left;
+  margin: 0 18px;
+  }
+  i{
+  width: 26px;
+  float: left;
+  text-align: left;
+}
+</style>
 </head>
-<div class="jumbotron text-center">
-  <h1>Update Page</h1>
-</div>
+<body>
 <form name="form" action="UpdateServlet" method="post">
+<div class="login-box">
+ <h1>Update Page</h1>
     <div class="textbox">
-        <i class="fas fa-user-circle"></i>
       <input id="eid" type="text" class="form-control" name="eid" placeholder="enter ur id">
     </div>
 	<br/>
-	 <div class="input-group">
-   <span class="input-group-addon"><i class="	glyphicon glyphicon-edit"></i></span>
+	 <div class="textbox">
     <input type="text" class="form-control" name="Design" id="Design" placeholder="Design">
   </div>
   <br/>
-   <div class="input-group">
-	 <span class="input-group-addon"><i class="	glyphicon glyphicon-edit"></i></span>
+   <div class="textbox">
       <textarea class="form-control" rows="8" id="question" name="question" placeholder="Enter ur question"></textarea>
 	  </div>
 	  <br/>
 	  
-  <button type="submit" class="btn btn-primary center-block">Update</button>
+  <button type="submit" class="btn">Update</button>
+   </div>
 </form>
+<div class="login-box">
+ <button type="submit" class="btn1">Back</button>
+ </div>
 </body>
 </html>

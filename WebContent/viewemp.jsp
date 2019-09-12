@@ -13,6 +13,12 @@
 </head>
 
 <body>
+<% response.setHeader("cache-control", "no-cache,no-store,must-revalidate");
+if(session.getAttribute("lid")==null)
+{
+	response.sendRedirect("Login.html");
+}
+%>
 <form action="design.html">
 <div id="container">
 <div class="jumbotron text-center">

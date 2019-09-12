@@ -39,7 +39,7 @@ public UpdateServlet() {
  else 
  {
  request.setAttribute("errMessage", userRegistered);
- request.getRequestDispatcher("/Register.jsp").forward(request, response);
+ request.getRequestDispatcher("/Register.html").forward(request, response);
  }
  }
 }

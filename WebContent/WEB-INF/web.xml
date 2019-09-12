@@ -112,6 +112,6 @@
 		<url-pattern>/MailServlet</url-pattern>
 	</servlet-mapping>
 	<welcome-file-list>
-		<welcome-file>nav.html</welcome-file>
+		<welcome-file>abc.html</welcome-file>
 	</welcome-file-list>
 </web-app>
